@@ -1,7 +1,7 @@
 *{
     margin:0px;
     padding:0px;
-  
+    
 }
 #navbar{
     width:100%;
@@ -20,7 +20,7 @@
     
 }
 
-div a{
+header a{
     text-decoration: none;
     color:#e8e8ed;
     margin-bottom: -7px;
@@ -50,17 +50,6 @@ div a{
 }
 
 
- /* div a{
-    color:black;
-    text-decoration: none;
-    color:#ffffff;
-    opacity:80%;
-    font-size:15px;
-    line-height: 12px;
-    text-align: left;
-    margin-top: 16px;
-}  */
-
 .hero-section{
     background-image: url('hero.png.jpg');
     height:95vh;
@@ -68,17 +57,152 @@ div a{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-   
+    margin-bottom:20px; 
+    background-color: #eef5f7ad;
+    
 } 
 
-.hero-message{
-    background-color:white ;
-    color:black;
-    height:40px;
-    display:flex; /*center me lane k liye*/
-    justify-content:center; /* horizontally*/
-   align-items:center;
-   font-size:0.85rem;
-   margin-bottom:25px;
 
+.headline{
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color:white;
+    text-align: center;
+    display: block;
+    width: auto;
+    position: absolute;
+    top:33%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
+
+.subhead {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: white;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto; /* Adjust width as needed */
+}
+
+/* second page */
+
+.second-page{
+    background-image:url('second.png.jpg') ;
+    height:90vh;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:   rgb(223, 223, 226);
+    margin-top: 20px;;
+    
+}
+
+.headline2 {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: black;
+    text-align: center;
+    display: block;
+    width: auto;
+    position: absolute;
+    top: 133%; /* Adjust this value to position it vertically in the middle */
+    left: 50%; /* Adjust this value to position it horizontally in the middle */
+    transform: translate(-50%, -50%);
+}
+
+.subhead2 {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: black;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto; /* Adjust width as needed */
+}
+
+/* third page */
+.third-class {
+    display: flex;
+    background-color:  rgb(251, 251, 255);
+  }
+  
+  .columns-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .column-column1,
+  .column-column2 {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    background-size:cover; 
+    background-position: center;
+    width: 150px; /* Adjust as needed */
+    height:90vh;
+  }
+  
+  .column-column1 {
+    background-image: url('watch.jpg'); /* Replace 'image1.jpg' with your image path */
+   margin: 20px;
+
+  }
+  
+  .column-column2 {
+    background-image: url('airpods.png.jpg'); /* Replace 'image2.jpg' with your image path */
+    margin: 20px;
+  }
+  
+  .content {
+    text-align: center;
+    margin-top:60px;
+  }
+  
+
+
+  /* footer */
+
+  .footer{
+    background-color:rgb(223, 223, 226) ;
+    height:95vh;
+    width:100%;
+   box-sizing: content-box;
+     }
+
+   .footnote{
+    float: inherit;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+    align-items: center;
+    margin:0px 139px 0px 139px;
+    padding: 22px 22px 0px 22px;
+   
+    /* justify-content: center; */
+    /* display: flex; */
+   }
+    
